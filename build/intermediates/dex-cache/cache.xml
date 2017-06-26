@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\project\SeetafaceSo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9d44a18b082cbdc3a911367f1cee71aee1f4f538">
+        <dex dex="D:\project\SeetafaceSo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_606efd747e7da27a6abfba2f9cf7ea4d3d2498f4\classes.dex" />
+    </item>
+    <item
+        jar="D:\project\SeetafaceSo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b047418615cb7541343ce8eab64ee2a675c3eeee">
+        <dex dex="D:\project\SeetafaceSo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3719dfb238bf84407ccff03b8c4af771dac787cf\classes.dex" />
+    </item>
+
+</items>

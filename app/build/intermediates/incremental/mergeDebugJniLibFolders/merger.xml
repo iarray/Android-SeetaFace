@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\project\SeetafaceSo\app\src\main\jniLibs"/><source path="D:\project\SeetafaceSo\app\libs"><file name="armeabi-v7a/libSeetafaceSo.so" path="D:\project\SeetafaceSo\app\libs\armeabi-v7a\libSeetafaceSo.so"/></source></dataSet><dataSet config="debug"><source path="D:\project\SeetafaceSo\app\src\debug\jniLibs"/></dataSet></merger>

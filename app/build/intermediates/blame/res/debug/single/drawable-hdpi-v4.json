@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\project\\SeetafaceSo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\project\\SeetafaceSo\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\project\\SeetafaceSo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\close.png",
+        "source": "D:\\project\\SeetafaceSo\\app\\src\\main\\res\\drawable-hdpi\\close.png"
+    },
+    {
+        "merged": "D:\\project\\SeetafaceSo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ok.png",
+        "source": "D:\\project\\SeetafaceSo\\app\\src\\main\\res\\drawable-hdpi\\ok.png"
+    }
+]
