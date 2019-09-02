@@ -8,11 +8,11 @@ include $(CLEAR_VARS)
 #无需opencv
 #include D:\workspace\OpenCV-android-sdk\sdk\native\jni\opencv.mk
 #OPENCV_INSTALL_MODULES:=on
-#OPENCV_CAMERA_MODULES:=off 
+#OPENCV_CAMERA_MODULES:=off
 #OPENCV_LIB_TYPE:=STATIC
-  
-LOCAL_MODULE := SeetafaceSo  
-LOCAL_LDLIBS += -llog -ljnigraphics  
+
+LOCAL_MODULE := SeetafaceSo
+LOCAL_LDLIBS += -llog -ljnigraphics
 LOCAL_CFLAGS += -O3 -fstrict-aliasing -fprefetch-loop-arrays -mfpu=neon
 
 #使用NEON优化
@@ -20,8 +20,8 @@ LOCAL_CFLAGS += -DHAVE_NEON=1
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/FaceDetection/include \
 $(LOCAL_PATH)/FaceIdentification/include \
-$(LOCAL_PATH)/FaceAlignment/include  
-				 					  	   		  	  
+$(LOCAL_PATH)/FaceAlignment/include
+
 LOCAL_SRC_FILES := FaceDetection/src/face_detection.cpp \
 FaceDetection/src/fust.cpp \
 FaceDetection/src/util/image_pyramid.cpp \
@@ -36,24 +36,24 @@ FaceDetection/src/classifier/surf_mlp.cpp \
 FaceAlignment/cfan.cpp  \
 FaceAlignment/face_alignment.cpp \
 FaceAlignment/sift.cpp \
-FaceIdentification\src\bias_adder_net.cpp \
-FaceIdentification\src\blob.cpp \
-FaceIdentification\src\bn_net.cpp \
-FaceIdentification\src\common_net.cpp \
-FaceIdentification\src\conv_net.cpp \
-FaceIdentification\src\eltwise_net.cpp \
-FaceIdentification\src\inner_product_net.cpp \
-FaceIdentification\src\log.cpp \
-FaceIdentification\src\math_functions.cpp \
-FaceIdentification\src\max_pooling_net.cpp \
-FaceIdentification\src\net.cpp \
-FaceIdentification\src\pad_net.cpp \
-FaceIdentification\src\spatial_transform_net.cpp \
-FaceIdentification\src\tform_maker_net.cpp \
-FaceIdentification\tools\aligner.cpp \
-FaceIdentification\tools\face_identification.cpp \
+FaceIdentification/src/bias_adder_net.cpp \
+FaceIdentification/src/blob.cpp \
+FaceIdentification/src/bn_net.cpp \
+FaceIdentification/src/common_net.cpp \
+FaceIdentification/src/conv_net.cpp \
+FaceIdentification/src/eltwise_net.cpp \
+FaceIdentification/src/inner_product_net.cpp \
+FaceIdentification/src/log.cpp \
+FaceIdentification/src/math_functions.cpp \
+FaceIdentification/src/max_pooling_net.cpp \
+FaceIdentification/src/net.cpp \
+FaceIdentification/src/pad_net.cpp \
+FaceIdentification/src/spatial_transform_net.cpp \
+FaceIdentification/src/tform_maker_net.cpp \
+FaceIdentification/tools/aligner.cpp \
+FaceIdentification/tools/face_identification.cpp \
 Seetaface_JniClient.cpp \
-CMImgProc.cpp 
-    
+CMImgProc.cpp
+
 include $(BUILD_SHARED_LIBRARY)
-      
+
